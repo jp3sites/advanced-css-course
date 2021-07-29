@@ -1,0 +1,32 @@
+.text-center {
+    text-align: center;
+}
+.margin {
+    &-bottom {
+        &-small {
+             margin-bottom: 1.5rem;
+        }
+        &-medium {
+            margin-bottom: 4rem;
+        }
+        &-large {
+            margin-bottom: 8rem;
+        }
+    }
+        &-top {
+            &-small {
+                margin-top: 1.5rem;
+            }
+
+            &-medium {
+                margin-top: 4rem;
+            }
+
+            &-large {
+                margin-top: 8rem;
+            }
+            &-huge {
+                margin-top: 10rem;
+            }
+        }
+}
